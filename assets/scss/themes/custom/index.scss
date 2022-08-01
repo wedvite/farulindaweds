@@ -1,5 +1,5 @@
 // Custom theme
-$custom-primary: #B99B57;
+$custom-primary: #BF9F79;
 $custom-secondary: white;
 
 .bg-custom,
@@ -9,14 +9,14 @@ $custom-secondary: white;
 }
 
 .bg-image-custom {
-  background-image: url("~assets/frames/custom/custom.png");
+  background-image: url("~assets/frames/custom/custom.jpg");
   background-size: calc(100% + 1px) 100% !important;
   background-position: -1px 0px;
 }
 
 .bgi-custom {
   background-color: $custom-primary !important;
-  // background-image: url("~assets/frames/custom/custom.png");
+  // background-image: url("~assets/frames/custom/custom.jpg");
   // background-size: 100% auto;
   // background-position: center center;
   color: $custom-secondary !important;
@@ -104,7 +104,7 @@ $custom-secondary: white;
 }
 
 #tentative {
-  background-image: url("~assets/frames/custom/custom.png");
+  background-image: url("~assets/frames/custom/custom.jpg");
   background-size: 100% auto;
   background-position: center center;
 }

@@ -1,5 +1,5 @@
 {
-  "theme": "autumn",
+  "theme": "custom",
   "lang": "en",
   "groom_or_bride_first": "groom",
   "groom": {
@@ -29,6 +29,9 @@
     "waze_link": "https://ul.waze.com/ul?preview_venue_id=66650143.666239287.11721931&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
   },
   "countdown_end": "2022-11-12 7:00 PM",
+  "invitation_section": {
+    "title": "WITH JOYFUL HEARTS"
+  },
   "tentative_section": {
     "style": "col",
     "tentatives": [
