@@ -1,6 +1,6 @@
 
 // Demo
-export const project = 'hanisfadzil';
+export const project = 'fadzilhanis';
 export const wishlistDoc = "hanisfadzil";
 export const projectTitle = 'Hanis & Fadzil';
 
@@ -41,12 +41,11 @@ export const themes = [
 ];
 
 export const rsvpOptions = [
-  { value: 'Hadir', class: 'is-success', faIcon: 'smile-wink' },
-  // { value: 'Maybe', class: 'is-link', faIcon: 'meh' },
-  { value: 'Tidak Hadir', class: 'is-warning', faIcon: 'frown', hidePax: true },
+  { value: 'Going', class: 'is-success', faIcon: 'smile-wink' },
+  { value: 'Not Going', class: 'is-warning', faIcon: 'frown', hidePax: true },
 ];
 
-export const rsvpMaxPax = 3;
+export const rsvpMaxPax = 4;
 
 export const userData = require(`./_infos/client.json`);
 

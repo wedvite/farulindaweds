@@ -1,7 +1,7 @@
 {
-  "theme": "custom",
-  "lang": "ms",
-  "groom_or_bride_first": "bride",
+  "theme": "autumn",
+  "lang": "en",
+  "groom_or_bride_first": "groom",
   "groom": {
     "fullname": "Muhammad Fadzil Bin Mohd Jusri",
     "nickname": "Fadzil"
@@ -11,49 +11,44 @@
     "nickname": "Hanis"
   },
   "parents": {
-    "name": "Mohd Shukri bin Mat Nor",
-    "andWith": "Siti Zubaidah binti Zainuddin"
+    "name": "Zuraidah Binti Abdul Rahim",
+    "andWith": "Family"
   },
   "date": {
-    "greg": "29 Oktober 2022",
-    "hijri": "4 Rabiulakhir 1444h"
+    "greg": "12 November 2022"
   },
   "time": {
-    "from": "11:30 AM",
-    "to": "4:30 PM"
+    "from": "7PM",
+    "to": "11PM"
   },
   "address": {
-    "general": "E14 Felda Sendayan, <br>Seremban",
-    "exact_html": "E14 Felda Sendayan, 71950 Seremban, Negeri Sembilan",
-    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.3685812309375!2d101.84726730226927!3d2.6739000000000135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x994e748f3b240f55!2zMsKwNDAnMjYuMCJOIDEwMcKwNTAnNTIuMCJF!5e0!3m2!1sen!2smy!4v1657979741871!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-    "gmaps_link": "https://maps.app.goo.gl/SgegdrYxF8Cknh167",
-    "waze_link": "https://waze.com/ul/hw22rjwg7c?&navigate=yes&zoom=16"
+    "general": "The Hall Level 2, <br>KL Gateway Mall",
+    "exact_html": "The Hall Level 2, KL Gateway Mall, Lorong Kerinchi Kiri 2, Kampung Kerinchi 59200 Kuala Lumpur.",
+    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.926615175335!2d101.66108311457744!3d3.1141177542358762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc498041deaaab%3A0x9245282a4af73118!2sKL%20Gateway%20Mall!5e0!3m2!1sen!2smy!4v1659343144721!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+    "gmaps_link": "https://maps.app.goo.gl/i65ppJ5YA4bwZjPu5",
+    "waze_link": "https://ul.waze.com/ul?preview_venue_id=66650143.666239287.11721931&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
   },
-  "countdown_end": "2022-10-29 11:30 AM",
-  "invitation_section": {
-    "text": "Dengan Segala Hormatnya Kami Menjemput <br>Dato'/Datin/Tuan/Puan/Encik/Cik <div class='guest guest-box'><br><\/div>Ke Majlis Perkahwinan Puteri Kami"
-  },
+  "countdown_end": "2022-11-12 7:00 PM",
   "tentative_section": {
-    "title": "TENTATIF",
     "style": "col",
     "tentatives": [
       {
-        "time": "11:30 AM",
-        "details": "Majlis Bermula"
+        "time": "7:00 PM",
+        "details": "Guests Arriving"
       },
       {
-        "time": "12:30 PM",
-        "details": "Ketibaan Pengantin"
+        "time": "8:15 PM",
+        "details": "Newlyweds Entrance"
       },
       {
-        "time": "4:30 PM",
-        "details": "Majlis Berakhir"
+        "time": "11:00 PM",
+        "details": "Ceremony Ends"
       }
     ]
   },
   "social_section": {
     "ig_tags": "TerHanisBuatFadzil",
-    "ig_signature": null,
+    "ig_signature": "",
     "carouselAutoplay": false,
     "images": [
       {
@@ -66,47 +61,35 @@
     "override_icons_color": true,
     "contacts": [
       {
-        "name": "Shukri",
-        "rel": "Ayah",
-        "tel": 60199654231,
+        "name": "Zuraidah",
+        "rel": "Mother",
+        "tel": 60126964215,
         "whatsapp": true
       },
       {
-        "name": "Zubaidah",
-        "rel": "Mak",
-        "tel": 601151416709,
+        "name": "Jusri",
+        "rel": "Father",
+        "tel": 60122505424,
         "whatsapp": true
       },
       {
-        "name": "Syuhada",
-        "rel": "Adik",
-        "tel": 601111528414,
+        "name": "Faizal",
+        "rel": "Brother",
+        "tel": 60193792803,
         "whatsapp": true
       },
       {
-        "name": "Luqman",
-        "rel": "Adik",
-        "tel": 60106644025,
-        "whatsapp": true
-      },
-      {
-        "name": "Husna",
-        "rel": "Adik",
-        "tel": 60176314473,
-        "whatsapp": true
-      },
-      {
-        "name": "Mustaqim",
-        "rel": "Adik",
-        "tel": 601139766806,
+        "name": "Nor Yusida",
+        "rel": "Sister",
+        "tel": 60175203996,
         "whatsapp": true
       }
     ]
   },
   "ics": {
     "enabled": 1,
-    "subject": "Walimatulurus - Hanis & Fadzil",
-    "start": [2022, 10, 29, 11, 30],
-    "duration": { "hours": 5 }
+    "subject": "Walimatulurus - Fadzil & Hanis",
+    "start": [2022, 11, 12, 19, 0],
+    "duration": { "hours": 4 }
   }
 }

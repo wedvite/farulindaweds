@@ -100,6 +100,16 @@
 					:class="'venue-' + i.theme"
 					v-html="i.address.general"
 				></div>
+
+				<div
+					data-aos="zoom-in"
+					data-aos-offset="0"
+					data-aos-duration="1000"
+					data-aos-delay="500"
+					style="margin-top: 1rem"
+				>
+					Dress Smart Casual
+				</div>
 			</div>
 		</div>
 	</section>
@@ -164,6 +174,7 @@ export default {
 .date-gregorian,
 .venue {
 	font-family: $primary-font;
+	text-transform: uppercase;
 }
 
 .floating-container {
