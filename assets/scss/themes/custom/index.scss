@@ -2,6 +2,10 @@
 $custom-primary: #BF9F79;
 $custom-secondary: white;
 
+// #main-content {
+//   min-height: 600px !important;
+// }
+
 .bg-custom,
 .bgt-custom {
   background-color: $custom-primary !important;
@@ -10,8 +14,8 @@ $custom-secondary: white;
 
 .bg-image-custom {
   background-image: url("~assets/frames/custom/custom.jpg");
-  background-size: calc(100% + 1px) 100% !important;
-  background-position: -1px 0px;
+  background-size: 100% 100% !important;
+  background-position: 0;
 }
 
 .bgi-custom {
