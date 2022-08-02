@@ -3,7 +3,7 @@
 		id="main-content"
 		class="hero is-fullheight"
 		:class="[
-			'bg-' + i.theme,
+			'bgt-' + i.theme,
 			'bg-image-' + i.theme,
 			i.main_section && i.main_section.text_transform
 				? i.main_section.text_transform

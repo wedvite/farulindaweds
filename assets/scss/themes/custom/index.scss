@@ -1,12 +1,17 @@
 // Custom theme
-$custom-primary: #BF9F79;
+// $custom-primary: #FBE8A3;
+$custom-primary: #FBD37B;
 $custom-secondary: white;
 
 // #main-content {
 //   min-height: 600px !important;
 // }
 
-.bg-custom,
+.bg-custom {
+  background-color: $custom-primary !important;
+  color: #363636 !important;
+}
+
 .bgt-custom {
   background-color: $custom-primary !important;
   color: $custom-secondary !important;
@@ -23,15 +28,13 @@ $custom-secondary: white;
   // background-image: url("~assets/frames/custom/custom.jpg");
   // background-size: 100% auto;
   // background-position: center center;
-  color: $custom-secondary !important;
+  // color: $custom-secondary !important;
+  color: #363636 !important;
 }
 
-.txt-custom {
-  color: $custom-secondary !important;
-}
-
+.txt-custom,
 .txt-dark-custom {
-  color: $custom-primary !important;
+  color: #363636 !important;
 }
 
 .guest.available {
@@ -92,7 +95,7 @@ $custom-secondary: white;
       transparent 0,
       transparent 35px,
       $custom-primary 36px);
-  color: $custom-secondary;
+  color: #363636;
 }
 
 #invitation {

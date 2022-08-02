@@ -165,7 +165,7 @@
                     alt="Google Maps icon"
                   />
                 </span>
-                GMaps
+                Maps
               </a>
               <a
                 :href="address.waze_link"
