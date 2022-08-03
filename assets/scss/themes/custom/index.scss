@@ -1,35 +1,34 @@
 // Custom theme
 // $custom-primary: #FBE8A3;
-$custom-primary: #FBD37B;
-$custom-secondary: white;
+$custom-primary: #F8AEBD;
+$custom-secondary: #F7F7F7;
 
-// #main-content {
-//   min-height: 600px !important;
-// }
-
-.bg-custom {
-  background-color: $custom-primary !important;
-  color: #363636 !important;
+#main-content {
+  min-height: 680px !important;
 }
 
-.bgt-custom {
+.bg-custom {
   background-color: $custom-primary !important;
   color: $custom-secondary !important;
 }
 
+.bgt-custom {
+  background-color: $custom-secondary !important;
+  color: #363636 !important;
+}
+
 .bg-image-custom {
-  background-image: url("~assets/frames/custom/custom.jpg");
+  background-image: url("~assets/frames/custom/custom.jpeg");
   background-size: 100% 100% !important;
   background-position: 0;
 }
 
 .bgi-custom {
   background-color: $custom-primary !important;
-  // background-image: url("~assets/frames/custom/custom.jpg");
+  // background-image: url("~assets/frames/custom/custom.jpeg");
   // background-size: 100% auto;
   // background-position: center center;
-  // color: $custom-secondary !important;
-  color: #363636 !important;
+  color: $custom-secondary !important;
 }
 
 .txt-custom,
@@ -51,11 +50,12 @@ $custom-secondary: white;
   line-height: normal;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
 }
 
 .couples-custom {
-  font-size: 4rem;
+  font-size: 4.5rem;
   margin-bottom: 1rem;
   line-height: 1.3;
   color: $custom-primary;
@@ -63,7 +63,7 @@ $custom-secondary: white;
   &>.amp {
     line-height: 1;
     font-size: 2rem;
-    color: $custom-secondary;
+    color: $custom-primary;
   }
 }
 
@@ -73,6 +73,7 @@ $custom-secondary: white;
   &>.date-gregorian {
     font-size: 1.3rem;
     text-transform: uppercase;
+    color: $custom-primary;
   }
 
   &>.date-hijri {
@@ -82,7 +83,7 @@ $custom-secondary: white;
 }
 
 .venue-custom {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-transform: uppercase;
 
 }
@@ -95,7 +96,7 @@ $custom-secondary: white;
       transparent 0,
       transparent 35px,
       $custom-primary 36px);
-  color: #363636;
+  color: $custom-secondary;
 }
 
 #invitation {
@@ -110,8 +111,8 @@ $custom-secondary: white;
   }
 }
 
-#tentative {
-  background-image: url("~assets/frames/custom/custom.jpg");
-  background-size: 100% auto;
-  background-position: center center;
-}
+// #tentative {
+//   background-image: url("~assets/frames/custom/custom.jpeg");
+//   background-size: 100% auto;
+//   background-position: center center;
+// }

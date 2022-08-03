@@ -1,12 +1,11 @@
 
 // Demo
-export const project = 'fadzilhanis';
-export const wishlistDoc = "hanisfadzil";
-export const projectTitle = 'Hanis & Fadzil';
+export const project = 'farulindaweds';
+export const wishlistDoc = "";
+export const projectTitle = 'Farul & Linda';
 
 export const allowedEmails = [
-  "fadziljusri@gmail.com",
-  "nurhanismohdshukri@gmail.com"
+  "farulrafiq8@gmail.com"
 ]
 
 export const fireStore = {
@@ -41,8 +40,8 @@ export const themes = [
 ];
 
 export const rsvpOptions = [
-  { value: 'Going', class: 'is-success', faIcon: 'smile-wink' },
-  { value: 'Not Going', class: 'is-warning', faIcon: 'frown', hidePax: true },
+  { value: 'Hadir', class: 'is-success', faIcon: 'smile-wink' },
+  { value: 'Tidak Hadir', class: 'is-warning', faIcon: 'frown', hidePax: true },
 ];
 
 export const rsvpMaxPax = 4;
@@ -51,5 +50,5 @@ export const userData = require(`./_infos/client.json`);
 
 export const cfg = {
   name: project,
-  title: "Walimatulurus - " + projectTitle,
+  title: "Walimatul Urus - " + projectTitle,
 }

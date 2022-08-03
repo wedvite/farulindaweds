@@ -7,10 +7,17 @@ Default Font
     src: local('MYRIADPRO'),
         url(~assets/fonts/MYRIADPRO-REGULAR.woff) format('woff');
 }
-$font-url: 'https://fonts.googleapis.com/css?family=Tangerine:wght@700&display=swap|Cormorant+Infant:ital,wght@1,600';
 
-$cover-font: 'Tangerine', cursive;
+@font-face {
+    font-family: 'PlaylistScript';
+    src: local('PlaylistScript'),
+        url(~assets/fonts/PlaylistScript.ttf) format('truetype');
+}
+
+$font-url: 'https://fonts.googleapis.com/css?family=Tangerine:wght@700|Montserrat:wght@300&display=swap';
+
+$cover-font: 'PlaylistScript', sans-serif;
 $primary-font: 'Cormorant Infant', serif;
 $secondary-font: 'MYRIADPRO', serif;
-$countdown-font: 'Tangerine', cursive;
+$countdown-font: 'PlaylistScript', sans-serif;
 // $countdown-font: 'Alex Brush', cursive;
